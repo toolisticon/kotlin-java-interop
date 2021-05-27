@@ -31,8 +31,8 @@ internal class JavaUtilFunctionExtTest {
 
   @Test
   internal fun `binaryOperator invoke`() {
-    val multiply = BinaryOperator<Int> { a,b -> a*b }
+    val multiply = BinaryOperator<Int> { a, b -> a * b }
 
-    assertThat(multiply(2,3)).isEqualTo(6)
+    assertThat(multiply(2, 3)).isEqualTo(6)
   }
 }
