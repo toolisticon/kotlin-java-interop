@@ -4,6 +4,7 @@ import io.toolisticon.kotlin.JavaUtilFunctionExt.invoke
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import java.util.concurrent.atomic.AtomicReference
+import java.util.function.BinaryOperator
 import java.util.function.Consumer
 import java.util.function.Predicate
 
@@ -26,5 +27,12 @@ internal class JavaUtilFunctionExtTest {
     val isGtFive = Predicate<Int> { it > 5 }
 
     assertThat(isGtFive(6)).isTrue
+  }
+
+  @Test
+  internal fun `binaryOperator invoke`() {
+    val multiply = BinaryOperator<Int> { a,b -> a*b }
+
+    assertThat(multiply(2,3)).isEqualTo(6)
   }
 }
