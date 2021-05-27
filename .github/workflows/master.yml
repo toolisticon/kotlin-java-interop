@@ -53,7 +53,7 @@ jobs:
           OSS_CENTRAL_USERNAME: ${{ secrets.SONATYPE_USERNAME }}
           OSS_CENTRAL_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
 
-      - name: Upolad coverage information
-        uses: codecov/codecov-action@v2
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
+#      - name: Upolad coverage information
+#        uses: codecov/codecov-action@v2
+#        with:
+#          token: ${{ secrets.CODECOV_TOKEN }}

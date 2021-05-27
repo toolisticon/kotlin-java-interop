@@ -251,13 +251,6 @@
             <useSystemClassLoader>false</useSystemClassLoader>
             <shutdown>kill</shutdown>
             <runOrder>random</runOrder>
-            <excludes>
-              <exclude>${pattern.class.itest}</exclude>
-              <exclude>${pattern.package.itest}</exclude>
-            </excludes>
-            <!-- Sets the VM argument line used when unit tests are run. -->
-            <!-- prevent the annoying ForkedBooter process from stealing window focus on Mac OS -->
-            <!--suppress UnresolvedMavenProperty -->
             <argLine>--illegal-access=permit -Djava.awt.headless=true ${argLine} -XX:+StartAttachListener -Xmx1024m -XX:MaxPermSize=256m
             </argLine>
             <systemPropertyVariables>
