@@ -40,5 +40,5 @@ as if it would be a `(Int,Int) -> Int` lambda function.
 
 ## Design
 
-This lib is designed to be as usable as possible, without being too invasive to your code base and dependency try. Consequentially, it does not require any transitive dependencies.
+This lib is designed to be as usable as possible, without being too invasive to your code base and dependency tree. Consequentially, it does not require any transitive dependencies.
 It just uses the core features provided by **JDK 11.x** and **Kotlin 1.5.x**.
