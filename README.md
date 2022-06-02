@@ -2,6 +2,7 @@
 
 Extensions for kotlin/java interoperability
 
+[![incubating](https://img.shields.io/badge/lifecycle-INCUBATING-orange.svg)](https://github.com/holisticon#open-source-lifecycle)
 [![Build Status](https://github.com/toolisticon/kotlin-java-interop/workflows/Development%20branches/badge.svg)](https://github.com/toolisticon/kotlin-java-interop/actions)
 [![sponsored](https://img.shields.io/badge/sponsoredBy-Holisticon-RED.svg)](https://holisticon.de/)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.toolisticon.kotlin/kotlin-java-interopt-bom/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.toolisticon.kotlin/kotlin-java-interopt)
